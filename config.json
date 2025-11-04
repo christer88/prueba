@@ -1,0 +1,23 @@
+{
+  "targets": [
+    {
+      "name": "Google DNS",
+      "host": "8.8.8.8",
+      "type": "ping"
+    },
+    {
+      "name": "Cloudflare DNS",
+      "host": "1.1.1.1",
+      "type": "ping"
+    },
+    {
+      "name": "Google",
+      "url": "https://www.google.com",
+      "type": "http"
+    }
+  ],
+  "interval": 60,
+  "timeout": 5,
+  "log_file": "network_monitor.log",
+  "alert_threshold": 3
+}
